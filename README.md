@@ -1,4 +1,4 @@
-#KompoŠuflík
+KompoŠuflík
 
 Webová aplikácia na výber, porovnávanie a konfiguráciu počítačových komponentov.
 
@@ -48,9 +48,11 @@ Celý priečinok projektu umiestnite do:
 
 C:\xampp\htdocs\
 
-Výsledná cesta by mala byť napríklad:
+Ak ste projekt stiahli ako ZIP z GitHubu, priečinok môže mať názov:
 
-C:\xampp\htdocs\KompoSuflik\
+KompoSuflik-main
+
+V takom prípade použite tento názov priečinka aj v nasledujúcom kroku.
 
 4. Vytvorenie databázy
 
@@ -72,7 +74,11 @@ a import dokončite.
 
 5. Spustenie webovej aplikácie
 
-Po úspešnom importe databázy otvorte:
+Ak má priečinok projektu názov KompoSuflik-main, otvorte:
+
+http://localhost/KompoSuflik-main/
+
+Ak ste priečinok premestovali alebo premenovali na KompoSuflik, otvorte:
 
 http://localhost/KompoSuflik/
 
