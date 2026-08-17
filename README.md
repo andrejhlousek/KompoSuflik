@@ -20,6 +20,7 @@ Projekt bol vytvorený ako maturitná práca. Jeho cieľom je umožniť použív
 * Rozdelenie komponentov podľa kategórií
 * Zobrazenie informácií a cien komponentov
 * Konfigurátor počítača
+* Výber jednotlivých komponentov
 * Výpočet celkovej ceny zostavy
 * Ukladanie vytvorených konfigurácií do databázy
 * Zobrazenie obrázkov jednotlivých komponentov
@@ -29,12 +30,13 @@ Projekt bol vytvorený ako maturitná práca. Jeho cieľom je umožniť použív
 * `.php` súbory – jednotlivé stránky a funkcie webovej aplikácie
 * `komposuflik.sql` – databáza projektu
 * `Hloušek/` – obrázky používané na webovej stránke
+* `README.md` – návod na inštaláciu a spustenie projektu
 
 ## Lokálne spustenie
 
 Projekt je určený na lokálne spustenie pomocou **XAMPP**.
 
-### 1. Nainštalovanie XAMPP
+### 1. Inštalácia XAMPP
 
 Nainštalujte XAMPP s podporou služieb **Apache** a **MySQL**.
 
@@ -53,13 +55,11 @@ Celý priečinok projektu umiestnite do:
 
 `C:\xampp\htdocs\`
 
-Priečinok projektu pomenujte:
+Ak ste projekt stiahli ako ZIP z GitHubu, priečinok môže mať názov:
 
-`Maturitna`
+`KompoSuflik-main`
 
-Výsledná cesta bude:
-
-`C:\xampp\htdocs\Maturitna\`
+V takom prípade použite tento názov priečinka aj v nasledujúcom kroku.
 
 ### 4. Vytvorenie databázy
 
@@ -81,9 +81,13 @@ a import dokončite.
 
 ### 5. Spustenie webovej aplikácie
 
-Po úspešnom importe databázy otvorte:
+Ak má priečinok projektu názov `KompoSuflik-main`, otvorte:
 
-`http://localhost/Maturitna/`
+`http://localhost/KompoSuflik-main/`
+
+Ak ste priečinok premenovali na `KompoSuflik`, otvorte:
+
+`http://localhost/KompoSuflik/`
 
 Webová aplikácia by sa mala načítať.
 
@@ -100,7 +104,7 @@ Pri štandardnej konfigurácii XAMPP nie je potrebné tieto údaje meniť.
 
 ## Poznámka
 
-Projekt je určený na lokálne spustenie. Na správne fungovanie je potrebné mať spustené služby **Apache** a **MySQL** v XAMPP.
+Projekt je určený na lokálne spustenie. Na jeho správne fungovanie je potrebné mať nainštalovaný XAMPP a spustené služby **Apache** a **MySQL**.
 
 ## Autor
 
