@@ -109,4 +109,4 @@ Projekt je určený na lokálne spustenie. Na jeho správne fungovanie je potreb
 **Andrej Hloušek**
 
 Maturitná práca
-Stredná odborná škola priemyselných technológií Púchov
+
