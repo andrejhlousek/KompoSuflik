@@ -55,11 +55,13 @@ Celý priečinok projektu umiestnite do:
 
 `C:\xampp\htdocs\`
 
-Ak ste projekt stiahli ako ZIP z GitHubu, priečinok môže mať názov:
+Priečinok projektu pomenujte:
 
-`KompoSuflik-main`
+`Maturitna`
 
-V takom prípade použite tento názov priečinka aj v nasledujúcom kroku.
+Výsledná cesta bude:
+
+`C:\xampp\htdocs\Maturitna\`
 
 ### 4. Vytvorenie databázy
 
@@ -81,13 +83,9 @@ a import dokončite.
 
 ### 5. Spustenie webovej aplikácie
 
-Ak má priečinok projektu názov `KompoSuflik-main`, otvorte:
+Po úspešnom importe databázy otvorte:
 
-`http://localhost/KompoSuflik-main/`
-
-Ak ste priečinok premenovali na `KompoSuflik`, otvorte:
-
-`http://localhost/KompoSuflik/`
+`http://localhost/Maturitna/`
 
 Webová aplikácia by sa mala načítať.
 
